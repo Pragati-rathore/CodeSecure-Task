@@ -28,11 +28,11 @@ const RenderArrayCell = ({ array }) => {
 
 
   return (
-    <ol style={{  padding: 0 }}>
+    <ul style={{  padding: 0 }}>
       {titles.map((title, index) => (
         <li key={index}>{title}</li>
       ))}
-    </ol>
+    </ul>
   );
 };
 export default RenderArrayCell
